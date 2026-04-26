@@ -106,3 +106,20 @@ button:hover {
 .rechazado {
     color: #dc2626;
 }
+/* LOGOS LATERALES */
+.logo {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 600px;
+    opacity: 0.15; /* transparencia elegante */
+    pointer-events: none;
+}
+
+.logo.izquierda {
+    left: 20px;
+}
+
+.logo.derecha {
+    right: 20px;
+}
